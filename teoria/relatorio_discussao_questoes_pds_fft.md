@@ -40,9 +40,9 @@ Ao observar o espectro após a redução da taxa de amostragem, percebe-se que a
 
 Segundo o critério de Nyquist, a frequência de amostragem deve obedecer:
 
-\[
+$$
 f_s \geq 2f_{max}
-\]
+$$
 
 Quando essa condição não é satisfeita, ocorre sobreposição espectral, fazendo com que componentes de alta frequência apareçam como frequências menores no espectro digital.
 
@@ -98,15 +98,15 @@ Entretanto, observa-se grande diferença no custo computacional entre os método
 
 A DFT direta possui complexidade computacional:
 
-\[
+$$
 O(N^2)
-\]
+$$
 
 Já a FFT reduz significativamente esse custo para:
 
-\[
+$$
 O(N\log N)
-\]
+$$
 
 Essa redução é fundamental em aplicações práticas envolvendo sinais longos ou processamento em tempo real.
 
@@ -120,9 +120,9 @@ A FFT revolucionou o processamento digital de sinais justamente por permitir an�
 
 Nesta questão foi analisada a resposta ao impulso do sistema discreto definido pela função de transferência:
 
-\[
+$$
 H(z)=\frac{1}{1-0.8z^{-1}}
-\]
+$$
 
 A sequência obtida apresentou comportamento exponencial decrescente.
 
@@ -134,9 +134,9 @@ Em sistemas discretos, a estabilidade BIBO (Bounded Input Bounded Output) exige 
 
 Como o polo do sistema encontra-se em:
 
-\[
+$$
 z = 0.8
-\]
+$$
 
 ou seja, dentro do círculo unitário, o sistema é estável.
 
@@ -156,9 +156,9 @@ Com maior quantidade de pontos, os picos espectrais tornam-se mais definidos e e
 
 A resolução espectral é dada aproximadamente por:
 
-\[
+$$
 \Delta f = \frac{f_s}{N}
-\]
+$$
 
 Assim, quanto maior o valor de \(N\), menor será \(\Delta f\), aumentando a capacidade de distinção entre frequências próximas.
 
