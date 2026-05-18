@@ -59,7 +59,9 @@ O aliasing, também chamado de mascaramento espectral, ocorre quando um sinal an
 
 Segundo o Teorema de Nyquist, a taxa de amostragem deve ser maior que o dobro da maior frequência presente no sinal:
 
-$fs>2fmax$
+$$
+f_s \geq 2f_{max}
+$$
 
 Quando essa condição não é atendida, frequências altas passam a ser interpretadas como frequências mais baixas.
 
