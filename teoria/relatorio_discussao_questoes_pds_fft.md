@@ -4,13 +4,13 @@
 
 ### Discussão Técnica
 
-Nesta questão foi gerada uma senoide discreta com frequência normalizada \(f_0 = 0,1\) e comprimento \(N = 128\). Inicialmente, o sinal foi representado no domínio do tempo, permitindo visualizar seu comportamento periódico e discreto.
+Nesta questão foi gerada uma senoide discreta com frequência normalizada $(f_0 = 0,1$) e comprimento $(N = 128$). Inicialmente, o sinal foi representado no domínio do tempo, permitindo visualizar seu comportamento periódico e discreto.
 
 Posteriormente, foi aplicada a Transformada Rápida de Fourier (FFT) para converter o sinal para o domínio da frequência. O espectro obtido apresentou um pico dominante exatamente na frequência correspondente à senoide gerada, demonstrando que a FFT consegue identificar corretamente a principal componente espectral do sinal.
 
 A análise evidencia a relação direta entre frequência do sinal no domínio temporal e sua representação espectral. Como o sinal contém apenas uma frequência dominante, o espectro apresenta um único pico significativo.
 
-Além disso, observa-se que o número de amostras influencia diretamente a resolução espectral. Um valor de \(N = 128\) fornece uma resolução adequada para identificação da componente principal.
+Além disso, observa-se que o número de amostras influencia diretamente a resolução espectral. Um valor de $(N = 128$) fornece uma resolução adequada para identificação da componente principal.
 
 ---
 
